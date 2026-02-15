@@ -65,13 +65,15 @@ user experience as close as possible to that offered by the Emacs mode
 package](https://melpa.org/#/ocaml-eglot). `ocaml-eglot` is only an
 interface between `eglot` (available _out of the box_ since `emacs >=
 29.1`) and Emacs, a major mode dedicated to OCaml editing must be
-installed (e.g. [caml-mode](https://melpa.org/#/caml) or
-[tuareg](https://melpa.org/#/tuareg)). Then, for example, you can use
+installed (e.g. [caml-mode](https://melpa.org/#/caml),
+[tuareg](https://melpa.org/#/tuareg) or
+[neocaml](https://github.com/bbatsov/neocaml)). Then, for example, you
+can use
 [`use-package`](https://www.gnu.org/software/emacs/manual/html_node/use-package/Lisp-Configuration.html)
 to install `ocaml-eglot`. You will also need
-`https://ocaml.org/p/ocaml-lsp-server/latest` in the [current
-opam switch](https://ocaml.org/docs/opam-switch-introduction). (If you are using
-`dune pkg` to managed your dependencies, see [Usage with `dune
+`https://ocaml.org/p/ocaml-lsp-server/latest` in the [current opam
+switch](https://ocaml.org/docs/opam-switch-introduction). (If you are
+using `dune pkg` to managed your dependencies, see [Usage with `dune
 pkg`](#usage-with-dune-pkg))
 
 
